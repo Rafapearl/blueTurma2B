@@ -28,7 +28,7 @@ if digctps != 0:
     temporestantepos = temporestante * -1
     restanteidade = datanasc + (temporestante * -1)
     dicio [nomedig] [3]= [anocon, salario, temporestantepos, restanteidade]
-    print (f"{nomedig}, nascido no ano {anodig}, com {datanasc} de idade, com a carteira de trabalho n. {digctps}, contratado no ano {anocon}, com o salário de R$ {salario}, rentando {temporestantepos} anos para se aposentar, quando terá {restanteidade} anos de idade!")
+    print (f"{nomedig}, nascido no ano {anodig}, com {datanasc} de idade, com a carteira de trabalho n. {digctps}, contratado no ano {anocon}, com o salário de R$ {salario}, restando {temporestantepos} anos para se aposentar, quando terá {restanteidade} anos de idade!")
 else:
     semcarteira = "(Resta a carterira de Trabalho para demais informações)"
     print (f"{nomedig}, nascido no ano {anodig}, com {datanasc} de idade, {semcarteira}")
